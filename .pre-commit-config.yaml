@@ -23,4 +23,5 @@ repos:
     rev: 39.171.1
     hooks:
       - id: renovate-config-validator
+        files: ^renovate(?:-config)?\.json$
         args: [--strict]
